@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>详情页</title>
+    <link rel="stylesheet" href="../css/details.min.css">
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
+    <script src="../js/public.min.js"></script>
+    <script src="../js/details.min.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="head">
+            <div class="lg">
+                <a href="../index.html" class="login_a"><img src="../img/logo.png" alt="" class="logo"></a>
+            </div>
+            <div class="tixt">
+                <div class="tit">
+                    <a href="./regrist.html" class="log">amigo账号登录</a>
+                    <span>|</span>
+                    <a href="./login.html">原账号登录</a>
+                    <span>|</span>
+                    <a href="./regrist.html">注册</a>
+                    <span></span>
+                </div>
+                <div class="cart">
+                    <a href="./cart.html" class="car">
+                        <!-- <img src="./img/cart.png" alt=""> -->
+                        <div class="car1"></div>
+                        购物车(<em id="num">0</em>)
+                    </a>
+                    <div class="tip">您的购物车是空的，快去挑选喜欢的商品吧！</div>
+                </div>
+                <ul class="nav">
+                    <li class="nav_ne"><a href="../index.html">首页</a></li>
+                    <li class="nav_ne">
+                        <a href="./list.html" class="phone">手机</a>
+                    </li>
+                    <li class="nav_ne"><a href="">配件</a></li>
+                    <li class="nav_ne"><a href="">服务</a></li>
+                    <li class="nav_ne"><a href="">下载</a></li>
+                    <li class="nav_ne"><a href="">amigoOS</a></li>
+                </ul>
+                <form action="" class="search">
+                    <input type="text" class="sec" placeholder="输入搜索内容">
+                    <input type="button" class="sear">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- details -->
+    <div class="det_wrappers">
+        <div class="det_wrapper">
+            <div class="sumary" data-good-id="sp1">
+                <h1 class="su_name">大金钢2</h1>
+                <p class="su_slogan">6.0英寸高清全面屏</p>
+                <p class="su_price"><i>现价</i><em>:</em><b>￥</b></p>
+                <p class="infos_money">1799</p>
+                <dl class="su_color">
+                    <dt class="su_col"><i>颜色</i><em>:</em></dt>
+                    <dd class="su_cont">
+                        <span><img src="../img/intro1.jpg" alt=""></span>
+                        <span><img src="../img/intro2.jpg" alt=""></span>
+                        <span><img src="../img/intro3.jpg" alt=""></span>
+                    </dd>
+                </dl>
+                <dl class="su_quilty">
+                    <dt class="su_quil"><i>购买数量</i><em>:</em></dt>
+                    <dl class="su_count">
+                        <a href="javascript:;" class="su_redu"></a>
+                        <input type="text" class="su_num" value="1">
+                        <a href="javascript:;" class="su_add"></a>
+                    </dl>
+                </dl>
+                <a href="javascript:;" class="add_cart">加入购物车</a>
+            </div>
+            <div class="picture">
+                <div class="pic_imgs">
+                    <img src='../img/detial1.jpg' alt="">
+                </div>
+                <div class="small_imgs">
+                    <ul>
+                        <li><img src="../img/small_imgs1.jpg" alt=""></li>
+                        <li><img src="../img/small_imgs2.jpg" alt=""></li>
+                        <li><img src="../img/small_imgs3.jpg" alt=""></li>
+                        <li><img src="../img/small_imgs4.jpg" alt=""></li>
+                        <li><img src="../img/small_imgs5.jpg" alt=""></li>
+                    </ul>
+                </div>
+                <div class="view_medias">
+                    <a href="#" class="only_photos" id="showOriginalImg">
+                        <span class="spirit"></span>
+                        <em>查看大图</em>
+                    </a>
+                </div>
+                <div class="buy_area">
+                    <p class="area">您已选择：<span>大金钢2&nbsp;&nbsp;尊爵金&nbsp;&nbsp;1件&nbsp;&nbsp;总计：&nbsp;&nbsp;￥1799元</span></p>
+                    <a href="javascript:;" class="addCart">立即购买</a>
+                    <div class="share">
+                        <span>分享到:</span>
+                        <ul class="share_img1">
+                            <li><a href="javascript:;" class="gl1"></a></li>
+                            <li><a href="javascript:;" class="gl2"></a></li>
+                            <li><a href="javascript:;" class="gl3"></a></li>
+                            <li><a href="javascript:;" class="gl4"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="deta_intros">
+        <div class="deta_intro">
+            <ul>
+                <li class="deta_li1 active">功能特色</li>
+                <li class="deta_li2">参数规格</li>
+                <li class="deta_li3">包装清单</li>
+            </ul>
+        </div>
+        <div class="fun_intro">
+            <!-- 功能特色 -->
+            <div class="deta_imgs">
+                <img src="../img/imgs1.jpg" alt="">
+                <img src="../img/imgs2.jpg" alt="">
+                <img src="../img/imgs3.jpg" alt="">
+                <img src="../img/imgs4.jpg" alt="">
+                <img src="../img/imgs5.jpg" alt="">
+                <img src="../img/imgs6.jpg" alt="">
+                <img src="../img/imgs7.jpg" alt="">
+                <img src="../img/imgs8.jpg" alt="">
+                <img src="../img/imgs9.jpg" alt="">
+                <img src="../img/imgs10.jpg" alt="">
+                <img src="../img/imgs11.jpg" alt="">
+                <img src="../img/imgs12.jpg" alt="">
+                <img src="../img/imgs13.jpg" alt="">
+                <img src="../img/imgs14.jpg" alt="">
+                <img src="../img/imgs15.jpg" alt="">
+                <img src="../img/imgs16.jpg" alt="">
+                <img src="../img/imgs17.jpg" alt="">
+                <img src="../img/imgs18.jpg" alt="">
+                <img src="../img/imgs19.jpg" alt="">
+                <img src="../img/imgs20.jpg" alt="">
+                <img src="../img/imgs21.jpg" alt="">
+                <img src="../img/imgs22.jpg" alt="">
+                <img src="../img/imgs23.jpg" alt="">
+                <img src="../img/imgs24.jpg" alt="">
+                <img src="../img/imgs25.jpg" alt="">
+                <img src="../img/imgs26.jpg" alt="">
+                <img src="../img/imgs27.jpg" alt="">
+                <img src="../img/imgs28.jpg" alt="">
+                <img src="../img/imgs29.jpg" alt="">
+            </div>
+            <!-- 参数规格 -->
+            <div class="meter">
+                <table>
+                    <tr>
+                        <th colspan="2">基本信息</th>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[许可证编号]</td>
+                        <td class="met_right">02-7127-073335</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[上市时间]</td>
+                        <td class="met_right">2017年9月</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[操作系统]</td>
+                        <td class="met_right">Android7.1</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[处理器]</td>
+                        <td class="met_right">高通骁龙 MSM8940</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">存储</th>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[内存]</td>
+                        <td class="met_right">4GB</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[内存空间]</td>
+                        <td class="met_right">64GB</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">网络参数</th>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[网络类型]</td>
+                        <td class="met_right">全网通</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[网络频段]</td>
+                        <td class="met_right">GSM B2/B3/B5/B8 TD_SCDMA B34/B39 TDD_LTE B34/B38/B39/B40/B41 WCDMA B1/B2/B5/B8 FDD-LTE B1/B3/B5/B7/B8 CDMA1X&EVDO BC0 BC1</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[SIM卡尺寸]</td>
+                        <td class="met_right">SIM卡尺寸</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">外观</th>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[外形]</td>
+                        <td class="met_right">直板</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[外观尺寸]</td>
+                        <td class="met_right">156.3*75.6*8.6mm</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[重量]</td>
+                        <td class="met_right">187g</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">屏幕尺寸</th>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[6.0英寸]</td>
+                        <td class="met_right">6.0英寸</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[分辨率]</td>
+                        <td class="met_right">720*1440</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[PPI]</td>
+                        <td class="met_right">	268</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[屏幕色彩]</td>
+                        <td class="met_right">1600万色</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">拍照</th>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[后置摄像头]</td>
+                        <td class="met_right">1300万</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[前置摄像头]</td>
+                        <td class="met_right">800万</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[传感器]</td>
+                        <td class="met_right">CMOS</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[闪光灯]</td>
+                        <td class="met_right">LED补光灯</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">LED补光灯</th>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[音乐播放]</td>
+                        <td class="met_right">PCM/AAC/MP3/FLAC/APE/WAV/MKA/OGG/MIDI/M4A/AMR</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[视频播放]</td>
+                        <td class="met_right">MP4/3GP/MOV/MKV/AVI/FLV/MPEG/M2TS/TS</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[收音机]</td>
+                        <td class="met_right">支持</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">电池</th>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[理论通话时间]</td>
+                        <td class="met_right">56h</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[理论待机时间]</td>
+                        <td class="met_right">833h</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[容量]</td>
+                        <td class="met_right">5000mAh</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[类型]</td>
+                        <td class="met_right">聚合物锂离子电池</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">连接性</th>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[蓝牙]</td>
+                        <td class="met_right">蓝牙4.1</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[接口]</td>
+                        <td class="met_right">Micro USB</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[耳机接口]</td>
+                        <td class="met_right">3.5mm</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[WiFi]</td>
+                        <td class="met_right">支持</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">定位功能</th>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[GPS导航]</td>
+                        <td class="met_right">支持</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">输入</th>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[键盘类型]</td>
+                        <td class="met_right">虚拟键盘</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[输入方式]</td>
+                        <td class="met_right">触控</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">传感器</th>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[光线感应器]</td>
+                        <td class="met_right">支持</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[重力感应]</td>
+                        <td class="met_right">支持</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[距离感应]</td>
+                        <td class="met_right">支持</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[电子罗盘]</td>
+                        <td class="met_right">支持</td>
+                    </tr>
+                    <tr>
+                        <td class="met_left">[指南针]</td>
+                        <td class="met_right">支持</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- 包装清单 -->
+            <div class="package">
+                <p>主机，充电器，数据线，贴膜（已贴好），保护壳，取卡针，快速指南，服务手册，手机丢失指南</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- solve -->
+    <div class="solve">
+        <div class="ren">
+            <ul class="retn">
+                <li class="ret">
+                    <a href="javascript:;">
+                        <div class="ret1"></div>
+                        <p class="titx">7天<br>退货保证</p>
+                    </a>
+                </li>
+                <li class="ret">
+                    <a href="javascript:;">
+                        <div class="ret2"></div>
+                        <p class="titx">30天<br>换货承诺</p>
+                    </a>
+                </li>
+                <li class="ret">
+                    <a href="javascript:;">
+                        <div class="ret3"></div>
+                        <p class="titx">99元起<br>全场免运费</p>
+                    </a>
+                </li>
+                <li class="ret">
+                    <a href="javascript:;">
+                        <div class="ret4"></div>
+                        <p class="titx">579家<br>售后服务点</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="foot">
+            <div class="sale">
+                <h4>关于金立</h4>
+                <ul>
+                    <li class="sale_tit"><a href="javascript:;">企业荣誉</a></li>
+                    <li class="sale_tit"><a href="javascript:;">金立体验店</a></li>
+                    <li class="sale_tit"><a href="javascript:;">代理商专区</a></li>
+                    <li class="sale_tit"><a href="javascript:;">加入金立</a></li>
+                    <li class="sale_tit"><a href="javascript:;">联系我们</a></li>
+                    <li class="sale_tit"><a href="javascript:;">供应/服务商需求资讯</a></li>
+                </ul>
+            </div>
+            <div class="sale">
+                <h4>新闻资讯</h4>
+                <ul>
+                    <li class="sale_tit"><a href="javascript:;">公司新闻</a></li>
+                    <li class="sale_tit"><a href="javascript:;">媒体报道</a></li>
+                </ul>
+            </div>
+            <div class="sale">
+                <h4>购物指南</h4>
+                <ul>
+                    <li class="sale_tit"><a href="javascript:;">购物流程</a></li>
+                    <li class="sale_tit"><a href="javascript:;">支付方式</a></li>
+                    <li class="sale_tit"><a href="javascript:;">配送说明及费用</a></li>
+                    <li class="sale_tit"><a href="javascript:;">订单管理</a></li>
+                    <li class="sale_tit"><a href="javascript:;">购买常见问题</a></li>
+                    <li class="sale_tit"><a href="javascript:;">预置应用公示</a></li>
+                </ul>
+            </div>
+            <div class="sale">
+                <h4>售后服务</h4>
+                <ul>
+                    <li class="sale_tit"><a href="javascript:;">售后政策</a></li>
+                    <li class="sale_tit"><a href="javascript:;">售后服务网点</a></li>
+                    <li class="sale_tit"><a href="javascript:;">上门维修</a></li>
+                    <li class="sale_tit"><a href="javascript:;">签收须知</a></li>
+                    <li class="sale_tit"><a href="javascript:;">物流查询</a></li>
+                </ul>
+            </div>
+            <div class="sale">
+                <h4>关注我们</h4>
+                <ul>
+                    <img src="" alt="">
+                    <li class="sale_tit">
+                        <a href="javascript:;" class="xl">
+                            <div class="xlimg"></div>
+                            <i>新浪微博</i>
+                        </a>
+                    </li>
+                    <li class="sale_tit">
+                        <a href="javascript:;" class="tx">
+                            <div class="tximg"></div>
+                            <i>腾讯微博</i>
+                        </a>
+                    </li>
+                    <li class="sale_tit">
+                        <a href="javascript:;" class="kj">
+                            <div class="kjimg"></div>
+                            <i>QQ空间</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="follow">
+                <div class="code"></div>
+                <p>扫一扫关注微信</p>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+    <div class="ends">
+        <div class="end">
+            <div class="end_nav">
+                <a href="javascript:;" class="map">网站地图</a>
+                <span>|</span>
+                <a href="javascript:;" class="poin">集团下属公司<b></b></a>
+            </div>
+            <div class="end_tit">
+                <div class="end_tit_inp">
+                    <a href="javascript:;">中国/简体中文<span></span></a>
+                </div>
+                <p class="like">
+                    增值电信业务经营许可证：
+                    <a href="javascript:;">粤B2-20120350&nbsp;&nbsp;</a>
+                    <a href="javascript:;">粤ICP备05087105号&nbsp;&nbsp;</a>
+                    <a href="javascript:;">粤网文[2018]10835-3804号&nbsp;&nbsp;</a>
+                    <a href="javascript:;">粤文市审[2012]196号&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="javascript:;" class="gov"><img src="../img/govIcon.png" alt="" style="width: 33px;height: 45px;"></a>
+                    <a href="javascript:;" class="b"><img src="../img/b.png" alt=""></a>
+                </p>
+                <p class="copy">Copyright &copy; 2013 深圳市金立通信设备有限公司 版权所有 .</p>
+            </div>
+        </div>
+    </div>
+    <!-- service -->
+    <div class="service">
+        <div class="online">
+            <div class="line"></div>
+            <a href="javascript:;">在线服务</a>
+        </div>
+        <div class="help">
+            <div class="hel"></div>
+            <a href="javascript:;">帮助中心</a>
+        </div>
+        <div class="retop">
+            <div class="reto"></div>
+            <a href="javascript:;">返回顶部</a>
+        </div>
+        <div class="service_ew">
+            <div class="ser_ew"><img src="../img/code.png" alt=""></div>
+            <p>金立关怀</p>
+        </div>
+    </div>
+</body>
+</html>

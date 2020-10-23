@@ -1,0 +1,243 @@
+@import 'public';
+//startproduct
+.startproduct{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    .start{
+        width: 1196px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+        overflow: hidden;
+        h1{
+            font-size: 30px;
+            line-height: 30px;
+            font-weight: normal;
+            color: #000000;
+            padding: 30px 0 30px 0;
+            text-align: center;
+        }
+        .product{
+            a{
+                float: left;
+                margin-left: 10px;
+            }
+            .pro1{
+                margin-left: 0;
+            }
+        } 
+    }
+}
+// hotsell
+.hotsell{
+    width: 100%;
+    overflow: hidden;
+    background: #e5e5e5;
+}
+.sell{
+    width: 1210px;
+    margin: 0 auto 5px;
+    background: #e5e5e5;
+    overflow: hidden;
+    h1{
+        font-size: 30px;
+        font-weight: normal;
+        color: #000000;
+        padding: 40px 0 0 0;
+        text-align: center;
+    }
+    .more{
+        display: block;
+        font-size: 16px;
+        color: black;
+        float: right;
+        padding-bottom: 15px;
+    }
+    .more:hover{
+        color: #ef4222;
+    }
+    .sall{
+        .big_hot{
+            width: 305px;
+            height: 785px;
+            float: left;
+            margin: 36px 0 10px 14px;
+            transition: all .3s;
+        }
+        .big_hot:hover{
+            box-shadow: 0 0 10px 8px rgba(143, 140, 140, 0.2);
+            transform: translateY(-2px);
+            transform: rotate(-2px);
+        }
+        .hot{
+            width: 886px;
+            height: 785px;
+            float: right;
+            padding-left: 5px;
+            li{
+                float: left;
+                width: 290px;
+                height: 390px;
+                background: white;
+                margin: 0 5px 5px 0;
+                .cli{
+                    width: 290px;
+                    height: 240px;
+                    position: relative;
+                    img{
+                        width: 120px;
+                        height: 240px;
+                        margin: 0 auto;
+                        padding: 20px;
+                    }
+                    .b_hi{
+                        transition: all 0.8s;
+                        position: absolute;
+                        top: 0;
+                        left: 65px;
+                    }
+                    .z_hi{
+                        transition: all 0.8s;
+                        position: absolute;
+                        top: 0;
+                        left: 65px;
+                    }
+                }
+                .name{
+                    font-size: 16px;
+                    color: #0f0e0e;
+                    text-align: center;
+                    margin-top: 290px;
+                    cursor: pointer;
+                }
+                .instro{
+                    display: block;
+                    font-size: 14px;
+                    color: #9e9e9e;
+                    text-align: center;
+                    padding: 3px 0 0;
+                }
+                .money{
+                    display: block;
+                    font-size: 24px;
+                    line-height: 24px;
+                    color: #fe6a00;
+                    text-align: center;
+                    padding: 12px 0 0;
+                    span{
+                        font-size: 18px;
+                    }
+                }
+            }
+            li:hover .b_hi{
+                position: absolute;
+                top: 0;
+                left: 25px;
+            }
+            li:hover .z_hi{
+                position: absolute;
+                top: 0;
+                left: 95px;
+            }
+        }
+    }
+    
+}
+// parts
+.parts{
+    width: 100%;
+    background: #e5e5e5;
+    overflow: hidden;
+}
+.part{
+    // width: 1196px;
+    background: #e5e5e5;
+    margin: 0 auto 60px;
+    h1{
+        font-size: 30px;
+        font-weight: normal;
+        color: #000000;
+        padding: 40px 0 0 0;
+        text-align: center;
+    }
+    .more{
+        display: block;
+        font-size: 16px;
+        color: black;
+        float: right;
+        padding-bottom: 15px;
+    }
+    .more:hover{
+        color: #ef4222;
+    }
+    .part_product{
+        // width: 1184px;
+        height: auto;
+        margin: 35px 0 0 150px;
+        padding: 16px 0 0 12px;
+        overflow: hidden;
+        .part_produ{
+            .part_pro{
+                float: left;
+                margin: 0 12px 16px 0;
+                transition: all .3s;
+                position: relative;
+                .part_instor{
+                    position: absolute;
+                    top: 240px;
+                    left: 130px;
+                    .part_name{
+                        font-size: 16px;
+                        color: #0f0e0e;
+                        text-align: center;
+                        cursor: pointer;
+                    }
+                    .part_instr{
+                        display: block;
+                        font-size: 14px;
+                        color: #9e9e9e;
+                        text-align: center;
+                        padding: 3px 0 0;
+                    }
+                    .part_money{
+                        display: block;
+                        font-size: 24px;
+                        line-height: 24px;
+                        color: #fe6a00;
+                        text-align: center;
+                        padding: 12px 0 0;
+                        span{
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+            .part_pro:hover{
+                box-shadow: 0 0 10px 8px rgba(143, 140, 140, 0.2);
+                transform: translateY(-2px);
+                transform: rotate(-2px);
+            }
+        } 
+    }
+}
+// brands
+.brands{
+    width: 100%;
+    overflow: hidden;
+}
+.brand{
+    width: 1190px;
+    margin: 0 auto;
+    overflow: hidden;
+    h1{
+        font-size: 30px;
+        font-weight: normal;
+        color: #000000;
+        padding: 40px 0;
+        text-align: center;
+    }
+    .brand_img img{
+        float: left;
+        margin: 0 10px 12px 0;
+    }
+}
